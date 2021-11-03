@@ -1,7 +1,4 @@
 # Multi-Output-model-for-Soccer
-<<<<<<< HEAD
-=======
-
 
 ## Abstract
 In modern sports, strategy and tactics are important in determining the game outcome. However, many
@@ -47,4 +44,3 @@ combine two datasets into a training dataset. We collect Tottenham Hotspur’s g
 for 11 seasons (2010/2011–2020/2021). Our model trains a dataset consisting of 380 games and tests the
 model with a dataset consisting of 38 games. The data from 2010/2011 to the 2019/2020 seasons is used
 as training data, while the data from 2020/2021 season is used as test data.
->>>>>>> upstream/main
