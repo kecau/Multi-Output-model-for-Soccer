@@ -19,7 +19,7 @@ connections to learn additional information. MLP layers help the model to genera
 dataset. Experimental results demonstrate the superiority of the proposed model, which obtain significant
 improvements comparing to baseline models.
 
-![model](./Data_code/Model.png)
+![Model](./Data_code/Model.png)
 
 ## Requirements
 The codebase is implemented in Python 3.6.1 | Anaconda 4.6.14 (64-bit). Package versions used for development are just below.
