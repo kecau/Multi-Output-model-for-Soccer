@@ -1,0 +1,1442 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0818.0857                               -->
+<workbook original-version='18.1' source-build='2020.2.5 (20202.20.0818.0857)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='label0 (pca2_cluster_formation)' inline='true' name='federated.07xb1ha073far415t4qye0qzev1e' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pca2_cluster_formation' name='excel-direct.1osr5701f78qyh1buxyy90lic4m5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Dropbox/[with gunju]/000_논문/AoOR_speacial_Issue/00_Data/테블로/pca2_cluster_formation.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1osr5701f78qyh1buxyy90lic4m5' name='label1' table='[label1$]' type='table'>
+          <columns gridOrigin='A1:H12:no:A1:H12:0' header='yes' outcome='6'>
+            <column datatype='integer' name='X' ordinal='0' />
+            <column datatype='integer' name='Y' ordinal='1' />
+            <column datatype='string' name='Labeled_Position' ordinal='2' />
+            <column datatype='string' name='Characteristics' ordinal='3' />
+            <column datatype='string' name='Formation' ordinal='4' />
+            <column datatype='string' name='Game Outcome' ordinal='5' />
+            <column datatype='string' name='Game Style' ordinal='6' />
+            <column datatype='string' name='Oppense_team' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1osr5701f78qyh1buxyy90lic4m5' name='label1' table='[label1$]' type='table'>
+          <columns gridOrigin='A1:H12:no:A1:H12:0' header='yes' outcome='6'>
+            <column datatype='integer' name='X' ordinal='0' />
+            <column datatype='integer' name='Y' ordinal='1' />
+            <column datatype='string' name='Labeled_Position' ordinal='2' />
+            <column datatype='string' name='Characteristics' ordinal='3' />
+            <column datatype='string' name='Formation' ordinal='4' />
+            <column datatype='string' name='Game Outcome' ordinal='5' />
+            <column datatype='string' name='Game Style' ordinal='6' />
+            <column datatype='string' name='Oppense_team' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[label1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H12:no:A1:H12:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X]</local-name>
+            <parent-name>[label1]</parent-name>
+            <remote-alias>X</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Y]</local-name>
+            <parent-name>[label1]</parent-name>
+            <remote-alias>Y</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Labeled_Position</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Labeled_Position]</local-name>
+            <parent-name>[label1]</parent-name>
+            <remote-alias>Labeled_Position</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Characteristics</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Characteristics]</local-name>
+            <parent-name>[label1]</parent-name>
+            <remote-alias>Characteristics</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Formation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Formation]</local-name>
+            <parent-name>[label1]</parent-name>
+            <remote-alias>Formation</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Outcome</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Game Outcome]</local-name>
+            <parent-name>[label1]</parent-name>
+            <remote-alias>Game Outcome</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Style</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Game Style]</local-name>
+            <parent-name>[label1]</parent-name>
+            <remote-alias>Game Style</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oppense_team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Oppense_team]</local-name>
+            <parent-name>[label1]</parent-name>
+            <remote-alias>Oppense_team</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Characteristics' datatype='string' name='[Characteristics]' role='dimension' type='nominal' />
+      <column caption='Formation' datatype='string' name='[Formation]' role='dimension' type='nominal' />
+      <column caption='Game Outcome' datatype='string' name='[Game Outcome]' role='dimension' type='nominal' />
+      <column caption='Game Style' datatype='string' name='[Game Style]' role='dimension' type='nominal' />
+      <column caption='Labeled Position' datatype='string' name='[Labeled_Position]' role='dimension' type='nominal' />
+      <column caption='Oppense team' datatype='string' name='[Oppense_team]' role='dimension' type='nominal' />
+      <column caption='X1' datatype='integer' name='[X]' role='measure' type='quantitative' />
+      <column caption='Y1' datatype='integer' name='[Y]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='label1' datatype='table' name='[__tableau_internal_object_id__].[label1_C2A7822AE0AC40D0BE921B731027A80F]' role='measure' type='quantitative' />
+      <column-instance column='[Characteristics]' derivation='None' name='[none:Characteristics:nk]' pivot='key' type='nominal' />
+      <mapped-images>
+        <mapped-image caption='pngwiang.com (1)' expression='file:///D:/Dropbox/[with gunju]/000_논문/000_Accepted/CCPE/테블로/배경이미지/pngwiang.com (1).png' name='[MappedImage1]'>
+          <mapping bottom='0' left='0' right='100' top='200' x='[X]' y='[Y]' />
+          <image-options desaturate-image='true' desaturate-pct='0.4' show-entire-image='true' />
+        </mapped-image>
+      </mapped-images>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='ko_KR' class='hyper' dbname='D:/Dropbox/[with gunju]/000_논문/AoOR_speacial_Issue/00_Data/테블로/label0 (pca2_cluster_formation).hyper' default-settings='yes' schema='Extract' sslmode='' update-time='06/28/2021 04:34:24 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='label0 (pca2_cluster_formation)' increment-value='%null%' refresh-type='create' rows-inserted='11' timestamp-start='2021-06-28 04:34:24.432' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>X</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[X]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X</remote-alias>
+              <ordinal>0</ordinal>
+              <family>label2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Y</remote-alias>
+              <ordinal>1</ordinal>
+              <family>label2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Labeled_Position</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Labeled_Position]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Labeled_Position</remote-alias>
+              <ordinal>2</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Characteristics</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Characteristics]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Characteristics</remote-alias>
+              <ordinal>3</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Formation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Formation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Formation</remote-alias>
+              <ordinal>4</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Game Outcome</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Game Outcome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Game Outcome</remote-alias>
+              <ordinal>5</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Game Style</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Game Style]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Game Style</remote-alias>
+              <ordinal>6</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Oppense_team</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Oppense_team]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Oppense_team</remote-alias>
+              <ordinal>7</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label1_C2A7822AE0AC40D0BE921B731027A80F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Characteristics:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Defensive&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Offensive&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='label1' id='label1_C2A7822AE0AC40D0BE921B731027A80F'>
+            <properties context=''>
+              <relation connection='excel-direct.1osr5701f78qyh1buxyy90lic4m5' name='label1' table='[label1$]' type='table'>
+                <columns gridOrigin='A1:H12:no:A1:H12:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='X' ordinal='0' />
+                  <column datatype='integer' name='Y' ordinal='1' />
+                  <column datatype='string' name='Labeled_Position' ordinal='2' />
+                  <column datatype='string' name='Characteristics' ordinal='3' />
+                  <column datatype='string' name='Formation' ordinal='4' />
+                  <column datatype='string' name='Game Outcome' ordinal='5' />
+                  <column datatype='string' name='Game Style' ordinal='6' />
+                  <column datatype='string' name='Oppense_team' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='20'>&lt;</run>
+            <run bold='true' fontsize='20'>[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]</run>
+            <run bold='true' fontsize='20'>&gt;, &lt;</run>
+            <run bold='true' fontsize='20'>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</run>
+            <run bold='true' fontsize='20'>&gt;, &lt;</run>
+            <run bold='true' fontsize='20'>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</run>
+            <run bold='true' fontsize='20'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='label0 (pca2_cluster_formation)' name='federated.07xb1ha073far415t4qye0qzev1e' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07xb1ha073far415t4qye0qzev1e'>
+            <column caption='Characteristics' datatype='string' name='[Characteristics]' role='dimension' type='nominal' />
+            <column caption='Formation' datatype='string' name='[Formation]' role='dimension' type='nominal' />
+            <column caption='Game Outcome' datatype='string' name='[Game Outcome]' role='dimension' type='nominal' />
+            <column caption='Game Style' datatype='string' name='[Game Style]' role='dimension' type='nominal' />
+            <column caption='Labeled Position' datatype='string' name='[Labeled_Position]' role='dimension' type='nominal' />
+            <column caption='Oppense team' datatype='string' name='[Oppense_team]' role='dimension' type='nominal' />
+            <column caption='X1' datatype='integer' name='[X]' role='measure' type='quantitative' />
+            <column caption='Y1' datatype='integer' name='[Y]' role='measure' type='quantitative' />
+            <column-instance column='[Characteristics]' derivation='None' name='[none:Characteristics:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Formation]' derivation='None' name='[none:Formation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Game Outcome]' derivation='None' name='[none:Game Outcome:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Game Style]' derivation='None' name='[none:Game Style:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Labeled_Position]' derivation='None' name='[none:Labeled_Position:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Oppense_team]' derivation='None' name='[none:Oppense_team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[X]' derivation='None' name='[none:X:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Y]' derivation='None' name='[none:Y:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]'>
+            <groupfilter function='member' level='[none:Formation:nk]' member='&quot;3-2-2-0-3&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]'>
+            <groupfilter function='member' level='[none:Game Outcome:nk]' member='&quot;Draw: 63\%&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]'>
+            <groupfilter function='level-members' level='[none:Game Style:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]</column>
+            <column>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</column>
+            <column>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]' />
+              <text column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]' />
+              <lod column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]' />
+              <lod column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]' />
+              <lod column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='28' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='9.5312213897705078' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='has-halo' value='false' />
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</rows>
+        <cols>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Wing0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>80</value>
+                <value>170</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;GK0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>10</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;FW0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>80</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;DMF0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>35</value>
+                <value>130</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CMF0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>50</value>
+                <value>130</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CB0B&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>20</value>
+                <value>30</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CB0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>20</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Wing1&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>80</value>
+                <value>30</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;DMF1&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>35</value>
+                <value>70</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CMF1&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>50</value>
+                <value>70</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CB1&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>20</value>
+                <value>170</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{E414C89D-05F4-4345-BE4E-89F305EAB761}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]' type='filter' />
+            <card param='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]' type='filter' />
+            <card param='[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Wing0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>80</value>
+                <value>170</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;GK0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>10</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;FW0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>80</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;DMF0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>35</value>
+                <value>130</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CMF0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>50</value>
+                <value>130</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CB0B&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>20</value>
+                <value>30</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CB0&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>20</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Wing1&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>80</value>
+                <value>30</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;DMF1&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>35</value>
+                <value>70</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CMF1&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>50</value>
+                <value>70</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Draw: 63\%&quot;</value>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;CB1&quot;</value>
+                <value>&quot;Everton&quot;</value>
+                <value>20</value>
+                <value>170</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[attr:Game Outcome:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Association_sum:ok]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F481C482-6275-459A-9B89-191E05C95F0E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

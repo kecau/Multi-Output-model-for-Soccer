@@ -1,0 +1,1402 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0818.0857                               -->
+<workbook original-version='18.1' source-build='2020.2.5 (20202.20.0818.0857)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='label0 (pca2_cluster_formation)' inline='true' name='federated.07xb1ha073far415t4qye0qzev1e' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pca2_cluster_formation' name='excel-direct.1osr5701f78qyh1buxyy90lic4m5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Dropbox/[with gunju]/000_논문/AoOR_speacial_Issue/00_Data/테블로/pca2_cluster_formation.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1osr5701f78qyh1buxyy90lic4m5' name='label0' table='[label0$]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1osr5701f78qyh1buxyy90lic4m5' name='label0' table='[label0$]' type='table' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[label0]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H12:no:A1:H12:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X]</local-name>
+            <parent-name>[label0]</parent-name>
+            <remote-alias>X</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_88EB64174F27407485001402808CB80A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Y]</local-name>
+            <parent-name>[label0]</parent-name>
+            <remote-alias>Y</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_88EB64174F27407485001402808CB80A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Labeled_Position</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Labeled_Position]</local-name>
+            <parent-name>[label0]</parent-name>
+            <remote-alias>Labeled_Position</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_88EB64174F27407485001402808CB80A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Characteristics</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Characteristics]</local-name>
+            <parent-name>[label0]</parent-name>
+            <remote-alias>Characteristics</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_88EB64174F27407485001402808CB80A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Formation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Formation]</local-name>
+            <parent-name>[label0]</parent-name>
+            <remote-alias>Formation</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_88EB64174F27407485001402808CB80A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Outcome</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Game Outcome]</local-name>
+            <parent-name>[label0]</parent-name>
+            <remote-alias>Game Outcome</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_88EB64174F27407485001402808CB80A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game Style</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Game Style]</local-name>
+            <parent-name>[label0]</parent-name>
+            <remote-alias>Game Style</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_88EB64174F27407485001402808CB80A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oppense_team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Oppense_team]</local-name>
+            <parent-name>[label0]</parent-name>
+            <remote-alias>Oppense_team</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_88EB64174F27407485001402808CB80A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Characteristics' datatype='string' name='[Characteristics]' role='dimension' type='nominal' />
+      <column caption='Game Outcome' datatype='string' name='[Game Outcome]' role='dimension' type='nominal' />
+      <column caption='Game Style' datatype='string' name='[Game Style]' role='dimension' type='nominal' />
+      <column caption='Labeled Position' datatype='string' name='[Labeled_Position]' role='dimension' type='nominal' />
+      <column caption='Oppense team' datatype='string' name='[Oppense_team]' role='dimension' type='nominal' />
+      <column caption='X1' datatype='integer' name='[X]' role='measure' type='quantitative' />
+      <column caption='Y1' datatype='integer' name='[Y]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='label0' datatype='table' name='[__tableau_internal_object_id__].[label0_88EB64174F27407485001402808CB80A]' role='measure' type='quantitative' />
+      <column-instance column='[Characteristics]' derivation='None' name='[none:Characteristics:nk]' pivot='key' type='nominal' />
+      <mapped-images>
+        <mapped-image caption='pngwiang.com (1)' expression='file:///D:/Dropbox/[with gunju]/000_논문/000_Accepted/CCPE/테블로/배경이미지/pngwiang.com (1).png' name='[MappedImage1]'>
+          <mapping bottom='0' left='0' right='100' top='200' x='[X]' y='[Y]' />
+          <image-options desaturate-image='true' desaturate-pct='0.4' show-entire-image='true' />
+        </mapped-image>
+      </mapped-images>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='ko_KR' class='hyper' dbname='D:/Dropbox/[with gunju]/000_논문/AoOR_speacial_Issue/00_Data/테블로/label0 (pca2_cluster_formation).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/28/2021 04:09:36 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='label0 (pca2_cluster_formation)' increment-value='%null%' refresh-type='create' rows-inserted='11' timestamp-start='2021-06-28 04:09:36.063' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>X</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[X]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>X</remote-alias>
+              <ordinal>0</ordinal>
+              <family>label2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_E3285AE96CFE4F58A233B8C7DD952614]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Y</remote-alias>
+              <ordinal>1</ordinal>
+              <family>label2</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_E3285AE96CFE4F58A233B8C7DD952614]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Labeled_Position</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Labeled_Position]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Labeled_Position</remote-alias>
+              <ordinal>2</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_E3285AE96CFE4F58A233B8C7DD952614]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Characteristics</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Characteristics]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Characteristics</remote-alias>
+              <ordinal>3</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_E3285AE96CFE4F58A233B8C7DD952614]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Formation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Formation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Formation</remote-alias>
+              <ordinal>4</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_E3285AE96CFE4F58A233B8C7DD952614]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Game Outcome</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Game Outcome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Game Outcome</remote-alias>
+              <ordinal>5</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_E3285AE96CFE4F58A233B8C7DD952614]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Game Style</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Game Style]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Game Style</remote-alias>
+              <ordinal>6</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_E3285AE96CFE4F58A233B8C7DD952614]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Oppense_team</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Oppense_team]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Oppense_team</remote-alias>
+              <ordinal>7</ordinal>
+              <family>label2</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[label0_E3285AE96CFE4F58A233B8C7DD952614]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Characteristics:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Defensive&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Offensive&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='label0' id='label0_88EB64174F27407485001402808CB80A'>
+            <properties context=''>
+              <relation connection='excel-direct.1osr5701f78qyh1buxyy90lic4m5' name='label0' table='[label0$]' type='table' />
+            </properties>
+          </object>
+          <object caption='label0' id='label0_E3285AE96CFE4F58A233B8C7DD952614'>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='20'>&lt;</run>
+            <run bold='true' fontsize='20'>[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]</run>
+            <run bold='true' fontsize='20'>&gt;, &lt;</run>
+            <run bold='true' fontsize='20'>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</run>
+            <run bold='true' fontsize='20'>&gt;, &lt;</run>
+            <run bold='true' fontsize='20'>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</run>
+            <run bold='true' fontsize='20'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='label0 (pca2_cluster_formation)' name='federated.07xb1ha073far415t4qye0qzev1e' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07xb1ha073far415t4qye0qzev1e'>
+            <column caption='Characteristics' datatype='string' name='[Characteristics]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Formation]' role='dimension' type='nominal' />
+            <column caption='Game Outcome' datatype='string' name='[Game Outcome]' role='dimension' type='nominal' />
+            <column caption='Game Style' datatype='string' name='[Game Style]' role='dimension' type='nominal' />
+            <column caption='Labeled Position' datatype='string' name='[Labeled_Position]' role='dimension' type='nominal' />
+            <column caption='Oppense team' datatype='string' name='[Oppense_team]' role='dimension' type='nominal' />
+            <column caption='X1' datatype='integer' name='[X]' role='measure' type='quantitative' />
+            <column caption='Y1' datatype='integer' name='[Y]' role='measure' type='quantitative' />
+            <column-instance column='[Characteristics]' derivation='None' name='[none:Characteristics:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Formation]' derivation='None' name='[none:Formation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Game Outcome]' derivation='None' name='[none:Game Outcome:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Game Style]' derivation='None' name='[none:Game Style:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Labeled_Position]' derivation='None' name='[none:Labeled_Position:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Oppense_team]' derivation='None' name='[none:Oppense_team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[X]' derivation='None' name='[none:X:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Y]' derivation='None' name='[none:Y:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]'>
+            <groupfilter function='member' level='[none:Formation:nk]' member='&quot;4-2-0-1-3&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]'>
+            <groupfilter function='member' level='[none:Game Outcome:nk]' member='&quot;Lose: 48\%&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]'>
+            <groupfilter function='level-members' level='[none:Game Style:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</column>
+            <column>[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]</column>
+            <column>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]' />
+              <text column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]' />
+              <lod column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]' />
+              <lod column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]' />
+              <lod column='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='28' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='9.5312213897705078' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='has-halo' value='false' />
+                <format attr='shape' value=':filled/circle' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='range' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</rows>
+        <cols>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Wing0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>80</value>
+                <value>170</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;WB0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>20</value>
+                <value>170</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;GK0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>10</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;FW0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>80</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;DMF0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>35</value>
+                <value>130</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;CB0B&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>20</value>
+                <value>130</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;CB0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>20</value>
+                <value>70</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Wing1&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>80</value>
+                <value>30</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;WB1&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>20</value>
+                <value>35</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;DMF1&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>35</value>
+                <value>70</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;AMF1&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>65</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{E414C89D-05F4-4345-BE4E-89F305EAB761}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Wing0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>80</value>
+                <value>170</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;WB0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>20</value>
+                <value>170</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;GK0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>10</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;FW0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>80</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;DMF0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>35</value>
+                <value>130</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;CB0B&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>20</value>
+                <value>130</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;CB0&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>20</value>
+                <value>70</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;Wing1&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>80</value>
+                <value>30</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;WB1&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>20</value>
+                <value>35</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;DMF1&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>35</value>
+                <value>70</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:X:qk]</field>
+                  <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Y:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Defensive&quot;</value>
+                <value>&quot;Lose: 48\%&quot;</value>
+                <value>&quot;Offensive&quot;</value>
+                <value>&quot;AMF1&quot;</value>
+                <value>&quot;Manchester City&quot;</value>
+                <value>65</value>
+                <value>100</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[attr:Game Outcome:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Association_sum:ok]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Characteristics:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Formation:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Outcome:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Game Style:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Labeled_Position:nk]</field>
+            <field>[federated.07xb1ha073far415t4qye0qzev1e].[none:Oppense_team:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F481C482-6275-459A-9B89-191E05C95F0E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      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
+      yneVn4IYAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
