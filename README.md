@@ -43,5 +43,5 @@ We collected two datasets from the website (http://whoscored.com). The first dat
 dataset, as described in Table 2. The second dataset is the game appearance dataset in Table 3. We
 combine two datasets into a training dataset. We collect Tottenham Hotspur’s game appearance dataset
 for 11 seasons (2010/2011–2020/2021). Our model trains a dataset consisting of 380 games and tests the
-model with a dataset consisting of 38 games. The data from 2010/2011 to the 2019/2020 seasons is used
-as training data, while the data from 2020/2021 season is used as test data.
+model with a dataset consisting of 38 games. The data from 2010/2011 to the 2020/2021 seasons is used
+as training data
